@@ -53,7 +53,7 @@ function Mapa() {
             center={{lat: 10.995466213819826, lng:-74.78976034564387}}
           >
             {coordenadas.lat !== 0 && coordenadas.lng !== 0 && (
-              <Marker position={{lat: 10.995466213819826, lng:-74.78976034564387}} />
+              <Marker position={coordenadas} />
             )}
           </GoogleMap>
         </LoadScript>
